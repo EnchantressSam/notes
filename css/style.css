@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+base {
+  color: #eae7dc;
+  color: #d8c3a5;
+  color: #8e8d8a;
+  color: #e98074;
+  color: #e85a4f;
+}
+body {
+  color: #8e8d8a;
+  background-color: #eae7dc;
+  font-size: 18px;
+}
+.container{
+  padding-top: 4%;
+  padding-left: 10%;
+  width: 100%;
+  max-width: 100vh;
+}
+
+.container h1{
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.container h1 img{
+  width: 60px;
+}
+
+.container button img{
+  width: 25px;
+  margin-right: 8px;
+}
+
+.container button{
+  display: flex;
+  align-items: center;
+  background-color: #eae7dc;
+  color: #8e8d8a;
+  font-size: 22px;
+  outline: 0;
+  border: 0;
+  border-radius: 40px;
+  padding: 15px 25px;
+  margin: 30px 0 20px;
+  cursor: pointer;
+  border: 3px double #e85a4f;
+   box-shadow: 3px 3px 3px 0px rgba(232, 90, 79, 0.2); 
+  /* box-shadow: 0px 0px 15px #d8c3a5; */
+}
+.notes-container{
+
+}
+.input-box{
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  min-height: 150px;
+  outline: none;
+  padding: 20px;
+  margin: 20px 0;
+  border: 3px double #e85a4f;
+  box-shadow: 3px 3px 3px 0px rgba(232, 90, 79, 0.2); 
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.input-box img{
+  width: 25px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  cursor: pointer;
+}
